@@ -4,7 +4,7 @@ webpackConfig.devtool = 'inline-source-map';
 
 module.exports = function(config) {
   config.set({
-    browsers: ['PhantomJS'],
+    browsers: ['Chrome'],
     frameworks: ['mocha'],
 
     files: [

@@ -1,9 +1,9 @@
 var assert = require("assert");
 
-describe("the app likes pizza", function() {
+describe("the canvas is added to the page", function() {
 	it("should run a test", function() {
     require("../app/js/app");
     var $ = require("jQuery");
-    assert.equal($('body').text(), "I like pizza.");
+    assert.equal($('canvas').length, 1);
 	});
 });
